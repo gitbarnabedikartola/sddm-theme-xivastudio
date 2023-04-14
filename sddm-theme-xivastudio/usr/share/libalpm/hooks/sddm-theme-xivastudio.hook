@@ -2,10 +2,9 @@
 Type = Package
 Operation = Install
 Operation = Upgrade
-Target = sddm-theme-biglinux
-Target = sddm-theme-biglinux-git
+Target = sddm-theme-xivastudio
 
 [Action]
 Description = Change sddm configuration
 When = PostTransaction
-Exec = /usr/share/libalpm/scripts/sddm-theme-biglinux
+Exec = /usr/share/libalpm/scripts/sddm-theme-xivastudio
