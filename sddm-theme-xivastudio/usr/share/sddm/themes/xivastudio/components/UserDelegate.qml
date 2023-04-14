@@ -171,6 +171,7 @@ Item {
         text: wrapper.name
         style: softwareRendering ? Text.Outline : Text.Normal
         styleColor: softwareRendering ? PlasmaCore.ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
+        color: "#000000"
         elide: Text.ElideRight
         horizontalAlignment: Text.AlignHCenter
         //make an indication that this has active focus, this only happens when reached with keyboard navigation
