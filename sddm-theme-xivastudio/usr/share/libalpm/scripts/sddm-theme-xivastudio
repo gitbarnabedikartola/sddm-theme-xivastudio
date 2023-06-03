@@ -1,9 +1,9 @@
 #!/bin/sh
 
-mkdir -p /var/lib/sddm/.config
-cp -f /usr/share/sddm/themes/xivastudio/config/kdeglobals /var/lib/sddm/.config/kdeglobals
-cp -f /usr/share/sddm/themes/xivastudio/config/plasmarc /var/lib/sddm/.config/plasmarc
-chown -R sddm:sddm /var/lib/sddm/
-cp -f /usr/share/sddm/scripts/Xsetup-xivastudio /usr/share/sddm/scripts/Xsetup
-cp -f /usr/share/sddm/scripts/clock-xiva.sh /usr/share/sddm/scripts/clock.sh
-cp -f /usr/share/sddm/scripts/numlock-xiva /usr/share/sddm/scripts/numlock
+# mkdir -p /var/lib/sddm/.config
+# cp -f /usr/share/sddm/themes/xivastudio/config/kdeglobals /var/lib/sddm/.config/kdeglobals
+# cp -f /usr/share/sddm/themes/xivastudio/config/plasmarc /var/lib/sddm/.config/plasmarc
+# chown -R sddm:sddm /var/lib/sddm/
+# cp -f /usr/share/sddm/scripts/Xsetup-xivastudio /usr/share/sddm/scripts/Xsetup
+# cp -f /usr/share/sddm/scripts/clock-xiva.sh /usr/share/sddm/scripts/clock.sh
+# cp -f /usr/share/sddm/scripts/numlock-xiva /usr/share/sddm/scripts/numlock
